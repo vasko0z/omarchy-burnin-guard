@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "vasko.burnin-guard",
+  "name": "Burn-in Guard",
+  "version": "1.0.0",
+  "author": "vasko",
+  "license": "MIT",
+  "description": "OLED burn-in protection: a dark wave sweeps across the bar at a set interval, shifting its static pixels",
+  "kinds": [
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "panel": "BurninGuard.qml"
+  }
+}
